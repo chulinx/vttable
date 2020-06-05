@@ -3,17 +3,17 @@
 ### How to install 
 #### use vpm
 ```golang
-v install tianyazc.vttable
+v install chulinx.vttable
 ```
 #### use vpkg
 ```golang
-vpkg get github.com/tianyazc/vttable
+vpkg get github.com/chulinx/vttable
 ```
 ### How to use
 ```golang
 module main
 
-import tianyazc.vttable 
+import chulinx.vttable 
 fn main() {
     tdata := [
        ["name","source","sex","age"],
@@ -44,7 +44,7 @@ $ v run table_t.v
 ```golang
 module main
 
-import tianyazc.vttable
+import chulinx.vttable
 fn main() {
     tdata := [
        ["name","source","sex","age"],
